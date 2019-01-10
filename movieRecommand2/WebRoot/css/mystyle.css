@@ -1,0 +1,40 @@
+#namecard {
+	position: relative;
+	background-color: black;
+	height: 50%;
+	min-height: 300px;
+	text-align: center;
+	padding: 15px;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+.namecard,
+.namecard h1 {
+	font-family: 'Oswald', sans-serif;
+	color:white;
+}
+.profile-img{
+	position: relative;
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	float: none;
+	overflow: hidden;
+	background-color: #fff;
+	border: 7px solid #f4d03f;
+	z-index: 100;
+	opacity: 1; 	/* Modern!Firefox 0.9+, Safari 2?, Chrome any?Opera 9+, IE 9+ */
+	-khtml-opacity: 1.0;
+	-moz-opacity: 1.0; 	/* Older than Firefox 0.9 */
+	filter: alpha(opacity=100); /* This works in IE 8 & 9 too, but also 5, 6, 7 */
+	
+   transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+}
+h1.maintitle {
+    margin-bottom: 3px;
+}
+.sub-maintitle {
+	margin-top: 0;
+}
